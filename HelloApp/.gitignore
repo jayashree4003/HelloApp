@@ -1,0 +1,67 @@
+# .gitignore
+
+
+### VS Code ###
+
+.vscode/
+
+
+# Compiled class file
+
+*.class
+
+*.jar
+
+*.log
+
+
+# Other File Exclusions
+
+.DS_Store
+
+*.iml
+
+
+# Build Folders Exclusion
+
+.idea/
+
+target/
+
+bin/
+
+doc/
+
+out/
+
+build/
+
+dist/
+
+```
+
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store

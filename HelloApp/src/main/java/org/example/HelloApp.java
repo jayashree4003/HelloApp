@@ -1,7 +1,7 @@
-packag
+package org.example;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutte
 public class HelloApp {
 
     public static void main(String[] args) {
@@ -19,3 +19,10 @@ public class HelloApp {
                     nameBuilder.append(", ");
                 }
             }
+
+            name = nameBuilder.toString();
+        }
+
+        System.out.println("Hello, " + name + "!");
+    }
+}
